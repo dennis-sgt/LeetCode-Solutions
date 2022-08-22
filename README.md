@@ -1,4 +1,4 @@
-# LeetCode
+# [LeetCode](https://leetcode.com/) 
 
 🇩🇪: Hier findet man Lösungen zu dem jeweiligen Problem auf LeetCode. Alle bereitgestellten Lösungen sind in Java geschrieben. Diesen sollen nur eine Hilfe bereitstellen, falls man bei einem Problem selber nicht mehr weiterkommt. Ich garantiere nicht die die schnellste Laufzeit(*Runtime*) und den geringsten Speicherverbrauchg(*Memorie Usage*).
 
