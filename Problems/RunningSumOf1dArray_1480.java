@@ -1,4 +1,4 @@
-public class RunningSumOf1dArray {
+public class RunningSumOf1dArray_1480 {
     public static int[] runningSum(int[] nums) {
 
         int[] intArr = new int[nums.length];

@@ -1,4 +1,4 @@
-public class RichestCustomerWealth {
+public class RichestCustomerWealth_1672 {
     public static int maximumWealth(int[][] accounts) {
         List<Integer> list = new LinkedList<>();
         int sum = 0;
