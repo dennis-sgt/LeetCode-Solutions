@@ -1,5 +1,3 @@
-package Problems;
-
 public class FizzBuzz_412 {
     public List<String> fizzBuzz(int n) {
         List<String> list = new ArrayList<>(n);
