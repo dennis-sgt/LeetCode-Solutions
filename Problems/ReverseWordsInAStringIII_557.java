@@ -1,14 +1,13 @@
 public class ReverseWordsInAStringIII_557 {
     public String reverseWords(String s) {
-        String[] arr = s.split(" ");
-        String output = "";
+        String[] split = s.split(" ");
+        StringBuilder builder = new StringBuilder();
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int k = arr[i].length() - 1; k >= 0; k--) {
-                output += arr[i].charAt(k);
-            }
-            output += " ";
+        for(String string : split) {
+            builder.append(new StringBuilder(string).reverse().toString());
+            builder.append(" ");
         }
-        return output.trim();
+
+        return builder.toString().trim();
     }
 }
